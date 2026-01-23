@@ -192,9 +192,7 @@ ncbi2Up <- function(ncbi_ids, max_retries = 5, wait_time = 3) {
 #' @return A data.frame with accession and IPG ID.
 #'
 #' @examples
-#' \dontrun{
 #' acc2Ipg(c("WP_000003915.1", "NP_414543.1"))
-#' }
 #'
 #' @importFrom rentrez entrez_search entrez_link
 #' @importFrom httr2 request req_perform resp_body_string
